@@ -1,0 +1,8 @@
+{
+  "name": "JAZMINE",
+  "description": "Good Style Deserves a Second Life — Pre-loved luxury fashion marketplace, barter lounge, and curated independent boutiques.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

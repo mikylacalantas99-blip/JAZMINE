@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --jazmine-cream: #F9F6F0;
+    --jazmine-beige: #EFE9DD;
+    --jazmine-stone: #E6DEC8;
+    --jazmine-border: #D8CEBA;
+    --jazmine-chocolate: #3B281E;
+    --jazmine-muted: #6E5B4F;
+    --jazmine-burgundy: #6D2932;
+    --jazmine-burgundy-hover: #561E26;
+    --jazmine-gold: #B08D57;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F9F6F0;
+    color: #3B281E;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-serif-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Custom hairline scrollbars for boutique drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #EFE9DD;
+}
+::-webkit-scrollbar-thumb {
+  background: #C7B9A2;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9B8871;
+}
